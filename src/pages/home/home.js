@@ -375,7 +375,7 @@ export default class extends React.Component {
 
                     <Container.Row>
 						<Button margin={{left:1, right:1}} color="success" size="lg" href="#new-stock">
-							Nytt köp
+							Nytt köp HE
 						</Button>
 
                         <span>{' '}</span>

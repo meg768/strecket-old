@@ -16,7 +16,7 @@ react-scripts-start:
 
 react-scripts-build:
 	npx react-scripts build
-
+	
 git-commit:
 	git add -A && git commit -m '-' && git push
 
