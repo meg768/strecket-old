@@ -4,9 +4,6 @@
   "private": true,
   "homepage": "http://85.24.185.150/strecket/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.3",
-    "@testing-library/user-event": "^12.6.2",
     "client-request": "^1.1.0",
     "highcharts": "^8.2.2",
     "highcharts-react-official": "^3.0.0",
@@ -26,19 +23,12 @@
     "yow": "^1.0.108"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-	"eject": "react-scripts eject",
-    "git-commit": "git add -A && git commit -m '-' && git push",
-    "git-reset": "git reset --hard HEAD",
-    "git-pull": "git pull"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "watch": "make react-scripts-start",
+    "build": "make react-scripts-build",
+
+	"git-commit": "make git-commit",
+    "git-reset": "make git-reset",
+    "git-pull": "make git-pull"
   },
   "browserslist": {
     "production": [
