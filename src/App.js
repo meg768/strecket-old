@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {HashRouter, Switch, Route} from "react-router-dom";
 
 import Home from './pages/home/home.js';
