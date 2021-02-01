@@ -2,20 +2,37 @@
   "name": "strecket",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://85.24.185.150/strecket/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
+    "client-request": "^1.1.0",
+    "highcharts": "^8.2.2",
+    "highcharts-react-official": "^3.0.0",
+    "moment": "^2.29.1",
     "react": "^17.0.1",
+    "react-bootify": "0.0.274",
+    "react-confirm-alert": "^2.6.2",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "react-sparklines": "^1.7.0",
+    "react-spinkit": "^1.1.10",
+    "recharts": "^1.8.5",
+    "rest-request": "^1.0.10",
+    "web-vitals": "^0.2.4",
+    "yahoo-finance": "^0.2.14",
+    "yow": "^1.0.108"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+	"eject": "react-scripts eject",
+    "git-commit": "git add -A && git commit -m '-' && git push",
+    "git-reset": "git reset --hard HEAD",
+    "git-pull": "git pull"
   },
   "eslintConfig": {
     "extends": [

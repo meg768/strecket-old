@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+}
+
+.numberCircleGreen {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+
+    background: YellowGreen;
+    border: 2px solid YellowGreen;
+    color: white;
+    text-align: center;
+    margin: 5px;
+
+    font: 32px Arial, sans-serif;
+}
+
+.numberCircleRed {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+
+    background: tomato;
+    border: 2px solid tomato;
+    color: white;
+    text-align: center;
+    margin: 5px;
+
+    font: 32px Arial, sans-serif;
+}
+
+#over img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}

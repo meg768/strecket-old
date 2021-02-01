@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {HashRouter, Switch, Route} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Home from './pages/home/home.js';
+import Meg from './pages/meg/meg.js';
+import Looker from './pages/looker/looker.js';
+import SellStock from './pages/sell-stock/sell-stock.js';
+import Evaluate from './pages/evaluate/evaluate.js';
+import NewStock from './pages/new-stock/new-stock.js';
+import Candidates from './pages/candidates/candidates.js';
 
-export default App;
+export default class App extends React.Component {
+
+    render() {
+        return (
+			<HashRouter>
+				<Switch>
+					<Route exact path="/" component={Home}/>
+					<Route path="/meg" component={Meg}/>
+					<Route path="/looker" component={Looker}/>
+					<Route path="/sell-stock" component={SellStock}/>
+					<Route path="/evaluate" component={Evaluate}/>
+					<Route path="/new-stock" component={NewStock}/>
+					<Route path="/candidates" component={Candidates}/>
+		
+					
+				</Switch>
+			</HashRouter>			
+        );
+
+    }
+};
+
